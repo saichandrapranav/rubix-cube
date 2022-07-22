@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li{
+    display: inline;
+    
+}
+.navbar{
+    height: 100px;
+    background: linear-gradient(to right, #898AA6, #C9BBCF);
+}
+
+.navbar li {
+    padding: 15px 20px;
+    margin-right: 20px;
+}
+
+.navbar li:hover {
+    background: linear-gradient(to right, yellow, orange);
+}
+.navbar img{
+    padding-top: 10px;
+}
+.navbar img:hover{
+    transform: rotateY(120deg);
+}
+
+.home p{
+    text-align: center;
+    font-size: 30px;
+    color: #2D4263;
+}
+
+.background{
+    background: #88ceeb;
+}
+.scramble p{
+    text-align: center;
+    font-size: 30px;
+    color: #F05454;
+}
+
+.footer {
+    text-align: center;
+    background-color: #e0f89f;
+    height: 70px;
+    font-size: 30px;
+}
+
+.footer p {
+    color: #B7D3DF;
+}
+.about p{
+    text-align: center;
+    font-size: 30px;
+    color: #00FFAB;
+}
